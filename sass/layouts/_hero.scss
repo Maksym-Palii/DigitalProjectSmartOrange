@@ -1,0 +1,56 @@
+.hero{
+    display: flex;
+}
+
+.main-title{
+    margin-top: 336px;
+    margin-right: 122px;
+
+    color:  #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.main-title--black{
+    color:  #333;
+    font-weight: 700;
+}
+
+.btn-arrow{
+    margin-top: 90px;
+
+    width: 53px;
+    height: 53px;
+    border: 1px solid #F2F2F2;
+    background: #FFF;
+}
+
+.btn-arrow--right{
+    margin-left: 23px;
+ 
+    background: #F9F9F9;
+}
+
+.hero-text-containet{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text{
+    color:  #BDBDBD;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.hero-line{
+    width: 43px;
+    height: 2px;
+    background-color: #E0E0E0;
+    rotate: -45deg;
+    margin-left: 26px;
+    margin-right: 32px;
+}
+
