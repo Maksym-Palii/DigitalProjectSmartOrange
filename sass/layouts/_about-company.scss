@@ -12,15 +12,17 @@ padding: 30px 70px 0 100px;
 
 .about-company__list{
     display: flex;
+    align-items: flex-start;
+
 flex-wrap:wrap;
 gap: 30px;
-// max-width: 570px;
+max-width: 570px;
+
 }
 
 // .about-company__item{
-//     max-width: 100%;
-//     height: auto;
-//     display: block;
+  
+
 // }
 
 .about-company__container-text{
