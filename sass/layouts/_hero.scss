@@ -24,12 +24,29 @@
     height: 53px;
     border: 1px solid #F2F2F2;
     background: #FFF;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        color: blue;
+        border-color: blue;
+    }
 }
 
 .btn-arrow--right{
     margin-left: 23px;
  
     background: #F9F9F9;
+}
+
+
+.btn-arrow__icon {
+    fill: currentColor;
+}
+
+.btn-arrow__icon--rotate {
+    rotate: 180deg;
 }
 
 .hero-text-containet{
@@ -54,3 +71,12 @@
     margin-right: 32px;
 }
 
+.hero-img-container{
+    position: relative;
+}
+
+.main-btn--hero{
+    position: absolute;
+    bottom: 0;
+
+}

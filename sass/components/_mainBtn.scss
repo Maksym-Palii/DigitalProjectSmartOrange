@@ -1,0 +1,31 @@
+.main-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 222px;
+    height: 71px;
+    background-color: #FFF;
+    border: none;
+
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+        background-color: rgb(207, 207, 248);
+        color: white;
+    }
+
+}
+
+.main-btn__icon{
+    fill: currentColor;
+    margin-left: 12px;
+}
