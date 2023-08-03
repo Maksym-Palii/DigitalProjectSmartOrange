@@ -234,8 +234,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 30px;
-  padding: 30px 70px 0 100px;
+  height: 435px;
+  max-width: 1000px;
+  padding: 0 70px 0 100px;
   background-color: #FBFBFB;
 }
 
@@ -250,10 +255,20 @@ body {
       flex-wrap: wrap;
   gap: 30px;
   max-width: 570px;
+  margin-top: 30px;
+}
+
+.about-company__item:nth-child(2) {
+  margin-top: 30px;
+}
+
+.about-company__item:nth-child(3) {
+  margin-top: -110px;
 }
 
 .about-company__container-text {
   max-width: 400px;
+  margin-top: 30px;
 }
 
 .about-compan__title {
