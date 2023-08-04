@@ -19,8 +19,8 @@
 
     &:hover,
     &:focus{
-        background-color: rgb(207, 207, 248);
-        color: white;
+        background-color:#333;
+        color: #FFF;
     }
 
 }
@@ -28,4 +28,19 @@
 .main-btn__icon{
     fill: currentColor;
     margin-left: 12px;
+}
+
+.main-btn--black{
+    background:  #333;
+    color: #FFF;
+
+    &:hover,
+    &:focus {
+        background-color: #FFF;
+        color: #333;
+    }
+}
+
+.main-btn--margin {
+   margin-left: auto;
 }
